@@ -12,6 +12,26 @@
     "graph": {
       "blocks": [
         {
+          "id": "adac41e1-a908-42d6-b525-b127411c3d44",
+          "type": "basic.input",
+          "data": {
+            "name": "CLK",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true,
+            "clock": true
+          },
+          "position": {
+            "x": 536,
+            "y": 0
+          }
+        },
+        {
           "id": "d68dac6d-ad09-42bd-a444-a3f64f3b9aa8",
           "type": "basic.output",
           "data": {
@@ -382,6 +402,56 @@
           "target": {
             "block": "4e183179-b99a-4755-9592-6a6bdffad2ef",
             "port": "in"
+          }
+        },
+        {
+          "source": {
+            "block": "adac41e1-a908-42d6-b525-b127411c3d44",
+            "port": "out"
+          },
+          "target": {
+            "block": "b188d9ac-898e-477d-9806-9a3a9d881f31",
+            "port": "4bf41c17-a2da-4140-95f7-2a80d51b1e1a"
+          }
+        },
+        {
+          "source": {
+            "block": "adac41e1-a908-42d6-b525-b127411c3d44",
+            "port": "out"
+          },
+          "target": {
+            "block": "c9ebd496-7a60-4340-9278-2df2307d699a",
+            "port": "4bf41c17-a2da-4140-95f7-2a80d51b1e1a"
+          }
+        },
+        {
+          "source": {
+            "block": "adac41e1-a908-42d6-b525-b127411c3d44",
+            "port": "out"
+          },
+          "target": {
+            "block": "57baad89-ee10-4587-8a2b-d8f517bb7329",
+            "port": "4bf41c17-a2da-4140-95f7-2a80d51b1e1a"
+          }
+        },
+        {
+          "source": {
+            "block": "adac41e1-a908-42d6-b525-b127411c3d44",
+            "port": "out"
+          },
+          "target": {
+            "block": "d5ec83b4-6cfe-4aba-8c6a-b1f8c58e77a6",
+            "port": "4bf41c17-a2da-4140-95f7-2a80d51b1e1a"
+          }
+        },
+        {
+          "source": {
+            "block": "adac41e1-a908-42d6-b525-b127411c3d44",
+            "port": "out"
+          },
+          "target": {
+            "block": "01d5650c-29be-48ca-9e72-8cec930094c9",
+            "port": "4bf41c17-a2da-4140-95f7-2a80d51b1e1a"
           }
         }
       ]
